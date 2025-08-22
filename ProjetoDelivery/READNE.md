@@ -3,7 +3,7 @@ Projeto Individual - Sistema de Gerenciamento de Pedidos de Delivery
 Objetivo
 Desenvolver um sistema em Java para gerenciamento de pedidos e entregas de um restaurante, aplicando ao menos quatro padrões de projeto para demonstrar domínio conceitual e prático sobre o tema.
 
-⚙️ Funcionalidades e Padrões de Projeto Aplicados
+Funcionalidades e Padrões de Projeto Aplicados
 Este projeto oferece uma interface de linha de comando interativa para o usuário e utiliza os seguintes padrões de projeto:
 
 Singleton (Criacional):
@@ -38,7 +38,7 @@ Como: O GerenciadorPedidos é o "sujeito" que notifica, e a classe Cliente é o 
 
 Por quê: Desacopla o objeto que tem o estado (o pedido) daqueles que dependem dele (o cliente), permitindo que múltiplas partes do sistema reajam às mudanças de estado de forma independente.
 
-🚀 Como Executar o Projeto
+Como Executar o Projeto
 Requisitos de Ambiente
 Java Development Kit (JDK) 8 ou superior.
 
@@ -58,5 +58,6 @@ Navegue de volta para o diretório principal do projeto e execute a classe Main.
 
 cd ..
 java -cp bin Main
+
 
 O sistema irá iniciar em um console interativo, onde você poderá escolher as opções para criar um pedido, atualizar seu status e visualizar as notificações automáticas.
